@@ -26,7 +26,7 @@ Together, these components allow you to serve dynamic websites and web applicati
 sudo apt update && sudo apt upgrade -y
 ```
 
-Step 2: Install Apache Web Server
+## Step 2: Install Apache Web Server
 Apache handles HTTP requests from users and serves web pages.
 
 ```bash
@@ -39,7 +39,7 @@ sudo systemctl status apache2
 ```
 You can also test Apache by opening your browser and typing http://localhost or your server IP. You should see the Apache2 Ubuntu Default Page.
 
-Step 3: Adjust Firewall to Allow Web Traffic
+## Step 3: Adjust Firewall to Allow Web Traffic
 Check available UFW application profiles:
 
 ```bash
@@ -57,7 +57,7 @@ Enable UFW if not already enabled:
 ```bash
 sudo ufw enable
 ```
-Step 4: Install MySQL Database Server
+## Step 4: Install MySQL Database Server
 ```bash
 sudo apt install mysql-server -y
 ```
@@ -68,13 +68,13 @@ sudo mysql_secure_installation
 ```
 Follow the prompts to set root password and secure your database server.
 
-Step 5: Install PHP and Modules
+## Step 5: Install PHP and Modules
 Install PHP along with Apache PHP module and MySQL PHP module:
 
 ```bash
 sudo apt install php libapache2-mod-php php-mysql -y
 ```
-Step 6: Configure Apache to Prioritize PHP Files
+## Step 6: Configure Apache to Prioritize PHP Files
 Open the dir.conf file for editing:
 
 ```bash
@@ -89,11 +89,11 @@ Modify the DirectoryIndex line to prioritize index.php:
 ```
 Save and exit (Ctrl + X, then Y, then Enter).
 
-Step 7: Restart Apache to Apply Changes
+## Step 7: Restart Apache to Apply Changes
 ```bash
 sudo systemctl restart apache2
 ```
-Step 8: Test PHP Processing
+## Step 8: Test PHP Processing
 Create a test PHP file:
 
 ```bash
@@ -115,7 +115,7 @@ arduino
 ```http://localhost/info.php```
 You should see the PHP info page with details of your PHP installation.
 
-Step 9: Test MySQL Connection with PHP
+## Step 9: Test MySQL Connection with PHP
 Create a PHP file to test database connection:
 
 ```bash
