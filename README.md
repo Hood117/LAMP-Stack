@@ -58,6 +58,6 @@ Developed by [Rahmatullah Zadran]
 If you find this helpful, give it a ⭐ star!
 Feel free to open an issue or PR to suggest improvements.
 
-- `hood117`
-- `Rahmatullah ZAdran`
+-By  `hood117`
+- `Rahmatullah Zadran`
 
