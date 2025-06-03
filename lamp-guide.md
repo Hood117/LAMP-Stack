@@ -154,5 +154,7 @@ Important: Delete this file after testing to avoid security risks:
 ```bash
 sudo rm /var/www/html/dbtest.php
 ```
-Conclusion
+
+---
+## Conclusion
 You have successfully installed and configured the LAMP stack on Ubuntu! You can now deploy PHP-based web applications backed by MySQL databases served through Apache.
