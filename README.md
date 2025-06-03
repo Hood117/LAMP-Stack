@@ -26,7 +26,6 @@ This tutorial aims to help you:
 - View screenshots to verify successful setup.
 
 ---
-
 🔍 How to Verify Installation
 After installation, open your browser and navigate to:
 
@@ -35,32 +34,28 @@ http://localhost/info.php → See your PHP info page.
 http://localhost → View Apache test page.
 
 Run sudo systemctl status apache2 in terminal → Check Apache service status.
----
 
 🖼️ Screenshots
 See the screenshots/ folder for visual confirmation of:
 
 Apache Default Page
-PHP Info Page
-Apache2 Service Status
 
----
+PHP Info Page
+
+Apache2 Service Status
 
 📖 Full Guide
 For a complete breakdown and explanation of each step, refer to lamp-guide.md
 
----
-✍️ Author
 
+✍️ Author
 Developed by [Rahmatullah Zadran]
 🖥️ GitHub: https://github.com/hood117
-
----
 
 📬 Feedback & Contributions
 If you find this helpful, give it a ⭐ star!
 Feel free to open an issue or PR to suggest improvements.
----
+
 - `hood117`
 - `Rahmatullah ZAdran`
 
