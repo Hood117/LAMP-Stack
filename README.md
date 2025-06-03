@@ -44,15 +44,17 @@ PHP Info Page
 
 Apache2 Service Status
 
-📖 Full Guide
-For a complete breakdown and explanation of each step, refer to lamp-guide.md
+---
+📖 For a complete breakdown and explanation of each step, refer to lamp-guide.md
 
 
-✍️ Author
+---
 Developed by [Rahmatullah Zadran]
 🖥️ GitHub: https://github.com/hood117
 
+---
 📬 Feedback & Contributions
+
 If you find this helpful, give it a ⭐ star!
 Feel free to open an issue or PR to suggest improvements.
 
