@@ -27,19 +27,6 @@ This tutorial aims to help you:
 
 ---
 
-## 🧰 Repository Structure
-
-LAMP-Stack/
-├── README.md # This file
-├── lamp-guide.md # Full step-by-step installation guide
-├── install-lamp.sh # Automated script for installing LAMP stack
-├── screenshots/ # Visual verification
-│ ├── apache-test.png
-│ ├── apache-status.png
-│ └── phpinfo.png
-
-
----
 
 ## 🚀 Quick Installation Steps
 
