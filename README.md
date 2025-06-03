@@ -27,18 +27,6 @@ This tutorial aims to help you:
 
 ---
 
-
-## 🚀 Quick Installation Steps
-
-If you're familiar with Linux, use the script to install everything:
-
-```bash
-git clone https://github.com/hood117/LAMP-Stack.git
-cd LAMP-Stack
-chmod +x install-lamp.sh
-./install-lamp.sh
-
-The script will install Apache, MySQL, and PHP, and configure basic settings for you.
 🔍 How to Verify Installation
 After installation, open your browser and navigate to:
 
